@@ -22,12 +22,6 @@ assets/img/          hero.jpg, covers/, authors/
 database/schema.sql  جداول قاعدة البيانات
 ```
 
-## التشغيل
-
-1. استورد `database/schema.sql` في MySQL (أو أبقِ قاعدتك الحالية فهي بنفس الأعمدة).
-2. عدّل بيانات الاتصال في `includes/db.php`.
-3. ضع الصور: `assets/img/hero.jpg` و`assets/img/covers/` و`assets/img/authors/`.
-
 ## قياس الوصولية والأداء
 
 قياس مبدئي للصفحة الرئيسية على `http://localhost/Library/` باستخدام Chromium في 25 أكتوبر 2026. النتائج محلية وتتأثر بالجهاز والتخزين المؤقت والشبكة:
